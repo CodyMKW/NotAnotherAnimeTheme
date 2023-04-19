@@ -21,7 +21,7 @@
   /*
     Theme Background
   */
-  --theme-background-image: url(https://i.imgur.com/j1Z6HVc.jpg);
+  --theme-background-image: url(https://i.imgur.com/LOapymP.jpg);
 
   /*
     Main Theme Color
@@ -36,7 +36,7 @@
   /*
     Home Icon Image
   */
-  --home-icon-image: url(https://i.imgur.com/63g6Em8.jpg);
+  --home-icon-image: url(https://i.imgur.com/VUUROHc.png);
 
   /*
     Change your friends icon image position
@@ -55,7 +55,7 @@
     Triple Column:  184px
     Quad Column:    242px
   */
-  --server-listing-width: 126px;
+  --server-listing-width: 75px;
 
   /*
     Font Size
@@ -201,4 +201,20 @@
   --reaction-emoji-border-color: 1px solid transparent;
   --reaction-emoji-hover-background-color: rgba(255, 255, 255, 0.1);
   --reaction-emoji-hover-border-color: rgba(255, 255, 255, 0.2);
+}
+/* Invites */
+.wrapper-1HIH0j {
+    background-color: transparent;
+}
+
+/* Reactons (I think, don't remember, I have too many custom entries) */
+.wrapper-3z7DuG {
+background-color: var(--emoji-menu-background-color);
+}  
+/* Channels and Roles menu */
+.content-1jQy2l.container-2IKOsH, .chat-2ZfjoI.scrollerContainer-y16Rs9, .chat-2ZfjoI.container-1um7CU {
+    background-color: transparent;
+}
+.prompt-1sE27N, .profileCard-2gVmvm, .channelRow-4X_3fi {
+    background-color: #0000006e;
 }
