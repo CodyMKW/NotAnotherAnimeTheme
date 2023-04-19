@@ -213,8 +213,10 @@ background-color: var(--emoji-menu-background-color);
 }  
 /* Channels and Roles menu */
 .content-1jQy2l.container-2IKOsH, .chat-2ZfjoI.scrollerContainer-y16Rs9, .chat-2ZfjoI.container-1um7CU {
-    background-color: transparent;
+    background-color:rgba(255,255,255,.1);
+    backdrop-filter:blur(5px)
 }
 .prompt-1sE27N, .profileCard-2gVmvm, .channelRow-4X_3fi {
-    background-color: #0000006e;
+    background-color:rgba(255,255,255,.1);
+    backdrop-filter:blur(5px)
 }
