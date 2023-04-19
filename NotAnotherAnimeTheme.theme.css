@@ -215,6 +215,7 @@ background-color: var(--emoji-menu-background-color);
 .content-1jQy2l.container-2IKOsH, .chat-2ZfjoI.scrollerContainer-y16Rs9, .chat-2ZfjoI.container-1um7CU {
     background-color: transparent;
 }
-.prompt-1sE27N, .profileCard-2gVmvm, .channelRow-4X_3fi {
-    background-color: #0000006e;
+.prompt-1sE27N, .profileCard-2gVmvm, .channelRow-4X_3fi, .search-kg4MrS.container-2oNtJn.medium-2NClDM {
+    background-color: rgba(255,255,255,8%);
+    backdrop-filter: blur(5px);
 }
