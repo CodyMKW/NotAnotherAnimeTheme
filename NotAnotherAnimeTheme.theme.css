@@ -50,12 +50,12 @@
 
   /*
     Server Listing Width
-    Single Column:  62px
-    Double Column:  126px
-    Triple Column:  184px
-    Quad Column:    242px
+    Single Column:  75px
+    Double Column:  134px
+    Triple Column:  195px
+    Quad Column:    255px
   */
-  --server-listing-width: 75px;
+  --server-listing-width: 255px;
 
   /*
     Font Size
@@ -218,4 +218,32 @@ background-color: var(--emoji-menu-background-color);
 .prompt-1sE27N, .profileCard-2gVmvm, .channelRow-4X_3fi, .search-kg4MrS.container-2oNtJn.medium-2NClDM {
     background-color: rgba(255,255,255,8%);
     backdrop-filter: blur(5px);
+}
+/* Vencord Read All button fix */
+.lookFilled-1H2Jvj.colorBrand-2M3O3N {
+    left: 86px;
+}
+/* Displays settings as a thread-like overlay on right side of main window */
+.baseLayer-W6S8cY.stop-animations {
+    opacity: 1 !important;
+    transform: scale(1) !important;
+}
+.layer-86YKbF:not(.baseLayer-W6S8cY) {
+    background: transparent;
+    pointer-events: none;
+    align-items: flex-end;
+}
+.standardSidebarView-E9Pc3j {
+    flex-direction: row-reverse;
+    left: unset;
+    pointer-events: auto;
+    box-shadow: var(--elevation-high);
+}
+.sidebarRegionScroller-FXiQOh,
+.sidebarRegion-1VBisG,
+.contentRegion-3HkfJJ {
+    flex: 0 0 auto;
+}
+.contentRegionScroller-2_GT_N.contentRegionShownSidebar-fHXkEg.auto-2TJ1RH.scrollerBase-1Pkza4, nav.sidebar-nqHbhN {
+    background-color:  #000000c4;
 }
