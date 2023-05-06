@@ -219,10 +219,6 @@ background-color: var(--emoji-menu-background-color);
     background-color: rgba(255,255,255,8%);
     backdrop-filter: blur(5px);
 }
-/* Vencord Read All button fix */
-.lookFilled-1H2Jvj.colorBrand-2M3O3N {
-    left: 86px;
-}
 /* Displays settings as a thread-like overlay on right side of main window */
 .baseLayer-W6S8cY.stop-animations {
     opacity: 1 !important;
